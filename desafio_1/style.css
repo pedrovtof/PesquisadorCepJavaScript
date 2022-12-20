@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0D0F40;
+  width: 60vw;
+}
+body section {
+  position: relative;
+  top: 10%;
+  left: 40%;
+}
+body section div {
+  background-color: #A6A09F;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 10px;
+  width: 600px;
+}
+body section div h1 {
+  padding-top: 10px;
+  color: #73655D;
+  margin-left: 20px;
+}
+body section div h3 {
+  color: #0D090B;
+  margin: 0px 5px;
+  padding-bottom: 20px;
+}
+body section form {
+  border-radius: 0px 0px 0px 0px;
+  background-color: #A6A09F;
+  display: block;
+  margin: 0px 10px;
+  width: 600px;
+}
+body section form label {
+  margin-left: 15px;
+  width: 70px;
+}
+body section form label::before {
+  content: "  => ";
+}
+body section form label:after {
+  content: " : ";
+}
+body section form #cep, body section form #rua, body section form #bairro, body section form #cidade, body section form #estado, body section form #ibge {
+  font-style: normal;
+  border-radius: 10px;
+  letter-spacing: 1.2px;
+  text-indent: 3px;
+}
+body section form #cep {
+  width: 85px;
+}
+body section form #rua {
+  width: 230px;
+}
+body section form #bairro {
+  width: 200px;
+}
+body section form #cidade {
+  width: auto;
+}
+body section form #estado {
+  width: 27px;
+}
+body section form #ibge {
+  width: 75px;
+}
+body section form .caixaInput {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #D7D7D9;
+}
+body section form .focus {
+  background-color: white;
+}
+body section p {
+  margin-left: 10px;
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #A6A09F;
+  width: 590px;
+  border-radius: 0px 0px 10px 10px;
+}/*# sourceMappingURL=style.css.map */

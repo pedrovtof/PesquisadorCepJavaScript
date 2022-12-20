@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Informe o CEP</h1>
+            <h3>Digite o CEP e ao sair o campo o endereco será completado. Pode utilizar a tecla TAB após digitar o CEP</h3>
+        </div>
+        <form  method="GET">
+            <label>CEP</label>
+            <input maxlength="8" required="required" pattern="[0-9]$"  id="cep" class="caixaInput" name="cep" placeholder="11111111"  type="text"> <br> <br>
+            <label>Rua</label>
+            <input id="rua" class="caixaInput" type="text"> <br> <br>
+            <label>Bairro</label>
+            <input id="bairro" class="caixaInput" type="text"> <br> <br>
+            <label>Cidade</label>
+            <input  id="cidade" class="caixaInput" type="text"> <br> <br>
+            <label>Estado</label>
+            <input maxlength="2"  id="estado" class="caixaInput" type="text"> <br> <br>
+            <label>IBGE</label>
+            <input id="ibge" class="caixaInput" type="text"> 
+        </form>
+       <p id="cadastro"></p>
+           
+    </section>     
+  
+    <script src="desafio1.js"></script>
+</body>
+</html>
